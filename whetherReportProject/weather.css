@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+.wetherapp{
+    background-image: url('shutterstock_1479789158.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.location
+{
+     text-align: right;
+     /* padding: 30px 40px 0px 0px; */
+     padding: 0px 150px;
+}
+.location h3, .location h5
+{
+    margin:0;
+}
+
+.information
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    margin-top: 80px;
+}
+.temp_information
+{
+    font-size: 50px;
+}
+.search
+{
+    display: flex;
+    justify-content: center;
+}
+.search input
+{
+    height: 40px;
+    width: 400px;
+}
+.search button{
+    border: none;
+    background-color:rgb(95, 185, 220);
+    font-size: 18px;
+    color: white;
+    padding: 0px 30px;
+}
